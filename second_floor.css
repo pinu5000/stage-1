@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+div {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+.outer-data-box {
+  background-color: black;
+  width: 39.918%;
+  height: 42.17%;
+  position: absolute;
+  right: 0.85%;
+  top: 0.4%;
+}
+
+.inner-data-box {
+  text-align: left;
+  background-color: white;
+  width: 95.9%;
+  height: 94.3%;
+  position: absolute;
+  right: 2.2%;
+  top: 3%;
+}
+
+.data-in-box {
+  font-size: 350%;
+  font-family: sans-serif;
+  margin: 19% 18%;
+}
+
+.outer-date-and-time {
+  background-color: black;
+  width: 24.525%;
+  height: 8.33%;
+  position: absolute;
+  right: 1.825%;
+  top: 42.95%;
+}
+
+.inner-date-and-time {
+  background-color: white;
+  width: 94.2%;
+  height: 72.5%;
+  position: absolute;
+  right: 2.9%;
+  top: 12.9%;
+}
+
+.class_room_1_left {
+  background-color: #FF8000;
+  width: 149px;
+  height: 131px;
+  position: absolute;
+  left: 327px;
+  top: 12px;
+}
+
+.class_room_2_left {
+  background-color: #FF8000;
+  width: 149.5px;
+  height: 145px;
+  position: absolute;
+  left: 326px;
+  top: 151.5px;
+}
+
+.class_room_3_left {
+  background-color: #FF8000;
+  width: 150.5px;
+  height: 138.5px;
+  position: absolute;
+  left: 325px;
+  top: 304px;
+}
+
+.class_room_1_right {
+  background-color: #FF8000;
+  width: 163.5px;
+  height: 136.5px;
+  position: absolute;
+  left: 639px;
+  top: 9px;
+}
+
+.class_room_2_right {
+  background-color: #FF8000;
+  width: 159.5px;
+  height: 139px;
+  position: absolute;
+  left: 644px;
+  top: 155px;
+}
+
+.class_room_3_right {
+  background-color: #FF8000;
+  width: 165px;
+  height: 236px;
+  position: absolute;
+  left: 642px;
+  top: 302px;
+}
+
+.wash_room {
+  background-color: maroon;
+  width: 152px;
+  height: 119px;
+  position: absolute;
+  left: 324.3px;
+  top: 545px;
+}
+
+.open_space {
+  background-color: #00FF00;
+  width: 266px;
+  height: 231.5px;
+  position: absolute;
+  left: 638.2px;
+  top: 548px;
+}
+
+.stairs_1 {
+  background-color: red;
+  width: 152px;
+  height: 87px;
+  position: absolute;
+  left: 324.3px;
+  top: 450px;
+}
+
+.stairs_1_button {
+  position: absolute;
+  bottom: 5px;
+  left: 30px;
+}
+
+.stairs_2 {
+  background-color: red;
+  width: 92px;
+  height: 139px;
+  position: absolute;
+  left: 734px;
+  top: 868px;
+}
+
+.stairs_2_button {
+  width: 60%;
+  position: absolute;
+  bottom: 25px;
+  left: 18px;
+}
+
+.lab {
+  background-color: #4285F4;
+  width: 239px;
+  height: 138px;
+  position: absolute;
+  left: 1023.7px;
+  top: 870px;
+}
+
+.cttc_room {
+  background-color: #4285F4;
+  width: 165px;
+  height: 221px;
+  position: absolute;
+  left: 913px;
+  top: 557px;
+}
+
+.meeting_room {
+  background-color: #4285F4;
+  width: 179px;
+  height: 143px;
+  position: absolute;
+  left: 836.2px;
+  top: 867px;
+}
+
+.spectrum {
+  background-color: #4285F4;
+  width: 181px;
+  height: 224.5px;
+  position: absolute;
+  left: 1086px;
+  top: 555px;
+}
+
+.staff_room {
+  background-color: #4285F4;
+  width: 151.2px;
+  height: 240.5px;
+  position: absolute;
+  left: 324.5px;
+  top: 672px;
+}
+
+.hover-class:hover {
+  background-color: violet;
+}
