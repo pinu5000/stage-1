@@ -30,7 +30,6 @@ div {
 }
 
 .inner-data-box {
-  text-align: left;
   background-color: white;
   width: 95.9%;
   height: 94.3%;
@@ -39,11 +38,18 @@ div {
   top: 3%;
 }
 
-.data-in-box {
+.show-data {
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* .data-in-box {
   font-size: 350%;
   font-family: sans-serif;
   margin: 19% 18%;
-}
+} */
 
 .outer-date-and-time {
   background-color: black;
@@ -61,6 +67,20 @@ div {
   position: absolute;
   right: 2.9%;
   top: 12.9%;
+}
+
+.date-and-time {
+  width: 99%;
+  height: 99%;
+  position: absolute;
+  right: 0.5%;
+  top: 0.5%;
+}
+
+.show-time-date {
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .class_room_1_left {
@@ -151,6 +171,12 @@ div {
   bottom: 5px;
 }
 
+.modal-window {
+  display: none;
+  width: 300px;
+  height: 300px;
+}
+
 .stairs_2 {
   background-color: red;
   width: 90px;
@@ -203,6 +229,102 @@ div {
   top: 854.3px;
 }
 
+/* span {
+  font-weight: bold;
+  text-decoration: underline;
+} */
+
 .hover-class:hover {
   background-color: violet;
 }
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Center the loader */
+ /* #loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} */
+
+/* Add animation to "page content" */
+/* .animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+} */

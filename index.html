@@ -8,78 +8,116 @@
 </head>
 
 <body>
+ <!-- onload="preloaderFunction()" style="margin:0;" -->
   <!-- Desktop screen. Resolution = 1600 * 900-->
-  <div class="container">
-    <img src="Ground_Floor.jpg" alt="Ground_Floor image">
 
-    <div class="hover-class class_room_1_left">
-      <h3>Classroom</h3>
-    </div>
+  <!-- <div id="loader">
+    <h5>Welcome</h5>
+  </div>
 
-    <div class="hover-class class_room_1_right">
-      <h3>Classroom</h3>
-    </div>
+  <div style="display:none;" id="myDiv" class="animate-bottom"> -->
+    <div class="container">
+      <img src="Ground_Floor.jpg" alt="Ground_Floor image">
 
-    <div class="hover-class class_room_2_left">
-      <h3>Classroom</h3>
-    </div>
-
-    <div class="hover-class class_room_2_right">
-      <h3>Classroom</h3>
-    </div>
-
-    <div class="hover-class class_room_3">
-      <h3>Classroom</h3>
-    </div>
-
-    <div class="hover-class wash_room">
-      <h3>Washroom</h3>
-    </div>
-
-    <div class="hover-class open_space_1">
-      <h3>Open Space</h3>
-    </div>
-
-    <div class="hover-class open_space_2">
-      <h3>Open Space</h3>
-    </div>
-
-    <div class="hover-class stairs_1">
-      <h3>Stairs</h3>
-      <button class="stairs_1_button" type="button" name="button"><a href="second_floor.html">Second Floor</a></button>
-    </div>
-
-    <div class="hover-class stairs_2">
-      <h3>Stairs</h3>
-      <button class="stairs_2_button" type="button" name="button"><a href="first_floor.html">First Floor</a></button>
-    </div>
-
-    <div class="hover-class principal_room">
-      <h3>Principal's Room</h3>
-    </div>
-
-    <div class="hover-class hod_room">
-      <h3>HoD Room</h3>
-    </div>
-
-    <div class="hover-class library">
-      <h3>Library</h3>
-    </div>
-
-    <div class="hover-class reading_room">
-      <h3>Reading Room</h3>
-    </div>
-    <div class="outer-data-box">
-      <div class="hover-class inner-data-box">
-        <h1 class="data-in-box">Board to Display Data</h1>
+      <div class="hover-class class_room_1_left classroom">
+        <h3>Classroom</h3>
       </div>
-    </div>
-    <div class="outer-date-and-time">
-      <div class="hover-class inner-date-and-time">
-        <p class="date-and-time"></p>
+
+      <div class="hover-class class_room_1_right classroom">
+        <h3>Classroom</h3>
+      </div>
+
+      <div class="hover-class class_room_2_left classroom">
+        <h3>Classroom</h3>
+      </div>
+
+      <div class="hover-class class_room_2_right classroom">
+        <h3>Classroom</h3>
+      </div>
+
+      <div class="hover-class class_room_3 classroom">
+        <h3>Classroom</h3>
+      </div>
+
+      <div class="hover-class wash_room always">
+        <h3>Washroom</h3>
+      </div>
+
+      <div class="hover-class open_space_1 always">
+        <h3>Open Space</h3>
+      </div>
+
+      <div class="hover-class open_space_2 always">
+        <h3>Open Space</h3>
+      </div>
+
+      <div class="hover-class stairs_1 always">
+        <h3>Stairs</h3>
+        <button class="stairs_1_button stair-button">Go</button>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <a href="first_floor.html">first-floor</a><br>
+            <a href="second_floor.html">second-floor</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="hover-class stairs_2 always">
+        <h3>Stairs</h3>
+        <button class="stairs_2_button stair-button">Go</button>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <a href="first_floor.html">first-floor</a><br>
+            <a href="second_floor.html">second-floor</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="hover-class principal_room" onclick="myFunction(this)">
+        <h3>Principal's Room</h3>
+      </div>
+
+      <div class="hover-class hod_room" onclick="myFunction(this)">
+        <h3>HoD Room</h3>
+      </div>
+
+      <div class="hover-class library" onclick="myFunction(this)">
+        <h3>Library</h3>
+      </div>
+
+      <div class="hover-class reading_room" onclick="myFunction(this)">
+        <h3>Reading Room</h3>
+      </div>
+      <div class="outer-data-box">
+        <div class="inner-data-box">
+          <div class="hover-class show-data">
+            <p class="data-in-box">
+              <p class="notice"><b><u>General Notice</u></b>: The admission will go on from 1st May,2020. Those who want to apply for hostels need to submit their previous sem result.
+                The course fee of correspondence courses has increased by Rs.8000/-.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="outer-date-and-time">
+        <div class="hover-class inner-date-and-time">
+          <div class="date-and-time">
+            <p class="show-time-date"></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
   <script src="index.js" charset="utf-8"></script>
 
 </body>
